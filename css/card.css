@@ -1,0 +1,54 @@
+.todosCards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    background-image: url(../img/fundoB.png);
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 100%;
+    max-width: 21rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: .5rem;
+    margin: 1.5rem;
+}
+.imgPrincipal{
+    width: 100%;
+}
+.card h3{
+    align-self: flex-start;
+    color: #413C58;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    height: 4.5rem;
+}
+.imgs{
+    display: flex;
+    justify-content: space-between;
+    margin: .5rem 0rem 4rem 0rem;
+}
+.imgs img{
+    width: 30%;
+}
+.infos{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: #413C58;
+    font-size: 1.5rem;
+}
+.infos h4{
+   display: flex;
+   align-items: center;
+}
+.icone{
+    color: #413C58;
+    width: 1.5rem;
+    margin-right: .25rem;
+}
